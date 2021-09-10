@@ -1,7 +1,7 @@
  const questions = [
     {
         type: "input",
-        message: "What is the title of your README.me?",
+        message: "What is the title of your README.md?",
         name: "title"},
     {
         type: "input",
