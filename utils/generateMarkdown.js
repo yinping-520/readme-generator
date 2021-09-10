@@ -31,7 +31,6 @@ const renderBadgeAndLink = (License) =>{
 
 };
 const renderBody = (Description,Installation,Usage,Contributing,Test,Username,Email, License) => {
-    //if(License) {const license = "License: We are licensed under"}
     
 return `#### Table of Contents
 * [Description](#Description)
@@ -50,7 +49,8 @@ return `#### Table of Contents
 
 [E-mail](${Email})
 ### We are licensed under ${License}`
-        };
+};
+
 const renderWholeTemplate = (...wholeTemplate) => {
     return `${wholeTemplate.join("\n")}`
 };
